@@ -6,4 +6,3 @@ CMD bash
 
 # Setup packages.
 RUN apt-get update && apt-get -y install clang cmake git build-essential python3
-RUN pip install mkdocs
